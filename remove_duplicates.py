@@ -10,7 +10,19 @@ duplicate_numbers = []
 #         # duplicate_numbers += numbers[num]
 # print(duplicate_numbers)
 
+# for num in numbers:
+#     if num not in numbers:
+#         duplicate_numbers.append(num)
+# print(duplicate_numbers)
+
+# mas manual na approach
 for num in numbers:
-    if num not in numbers:
-        duplicate_numbers.append(num)
+    found = False
+    for check in duplicate_numbers:
+        if num == check:
+            found = True
+            break
+    if found == False:
+        duplicate_numbers = duplicate_numbers + [num]
+
 print(duplicate_numbers)
