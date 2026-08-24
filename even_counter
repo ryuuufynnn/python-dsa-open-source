@@ -1,0 +1,11 @@
+def even_counter(nums: list[int]) -> int:
+    counter = 0
+
+    for x in nums:
+        if x % 2 == 0:
+            counter += 1
+    return counter
+
+user_input = input("Enter a numbers: ")
+nums = [int(x) for x in user_input.split()]
+print(even_counter(nums))
