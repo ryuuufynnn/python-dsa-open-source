@@ -18,3 +18,5 @@ for num in numbers:
 
 print(f"first largest {largest}")
 print(f"second {second_largest}")
+
+# if largest or first and second largest ang hinahanap, no need na gumamit ng len;

@@ -5,5 +5,9 @@ numbers = [int(x) for x in user_input.split()]
 reversed_numbers = []
 
 for num in range(len(numbers) -1, -1, -1):
-    reversed_numbers.append(numbers[num])
-print(reversed_numbers)
+    # reversed_numbers.append(numbers[num])
+    reversed_numbers += [numbers[num]]
+print(*reversed_numbers)
+
+
+
