@@ -1,3 +1,4 @@
+# Problem: Replace the first occurrence of a target number in a list with a new value.
 # user_input = input("Enter number with spaces: ")
 
 # numbers = [int(x) for x in user_input.split()]

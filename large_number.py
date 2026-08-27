@@ -1,3 +1,4 @@
+# Problem: Find and display the largest number in a list of integers.
 # user_input = input("Enter a set of numbers: ") # kuha muna ng numbers
 
 # numbers = [int(x) for x in user_input.split()] # convert sa int

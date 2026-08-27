@@ -1,3 +1,4 @@
+# Problem: Determine whether a target number appears in a list of integers.
 user_input = input("Enter numbers with spaces: ")
 
 numbers = [int(x) for x in user_input.split()]

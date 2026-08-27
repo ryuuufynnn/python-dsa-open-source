@@ -1,3 +1,4 @@
+# Problem: Given a sorted list and a target, find the target’s first index, or return -1 if it is absent.
 # Gumawa ng program na tatanggap ng sorted list of numbers at isang target number.
 # Hanapin kung saang index unang lumabas ang target.
 # Kung maraming beses lumabas ang target, ang pinakaunang occurrence lamang ang dapat ibalik.

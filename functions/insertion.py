@@ -1,3 +1,4 @@
+# Problem: Given a sorted list and target, find the target’s first index, or return -1 if absent.
 def search(nums: list[int], target: int) -> int:
     left = 0
     right = len(nums) -1

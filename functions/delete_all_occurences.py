@@ -1,3 +1,4 @@
+# Problem: Return a list with every occurrence of a target value removed.
 def delete_all_occurences(nums: list[int], target: int) -> list[int]: # ang function ay expected na mag-return ng list of integers.
     new_list = []
     for x in range(len(nums)):

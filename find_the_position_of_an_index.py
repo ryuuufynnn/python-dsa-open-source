@@ -1,3 +1,4 @@
+# Problem: Find the first index of a target number in a list, or report that it is absent.
 user_input = input("Enter a number with spaces: ")
 
 numbers = [int(x) for x in user_input.split()]

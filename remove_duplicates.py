@@ -1,3 +1,4 @@
+# Problem: Given a list of numbers, return a new list with duplicates removed while preserving original order.
 user_input = input("Enter a set of numbers with spaces: ")
 
 numbers = [int(x) for x in user_input.split()]

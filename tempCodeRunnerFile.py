@@ -1,10 +1,12 @@
-user_input = input("Enter a set of numbers: ") # kuha muna ng numbers
+# Problem: (temporary helper) Read numbers from input for experimenting with list operations.
+user_input = input("Enter numbers with spaces: ")
 
-# numbers = [int(x) for x in user_input.split()] # convert sa int
+# numbers = [int(x) for x in user_input.split()]
 
-# largest = numbers[0] # mag set ng initial number
+# greater_numbers = []
 
-# for num in numbers[1:]: # i loop lahat ng numbers
-#     if num > largest: # i check kung mas malaki ang current number
-#         largest = num
-# print(f"The largest number is: {largest}") # i print ang largest number
+# for num in numbers:
+#     if num > 5:
+#         greater_numbers.append(num)
+
+# print(f"Numbers greater than 5: {greater_numbers}")

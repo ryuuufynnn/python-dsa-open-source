@@ -1,3 +1,4 @@
+# Problem: Count how many even numbers are in a list of integers.
 # user_input = input("Enter an even and odd numbers: ") # user_input
 
 # numbers = [int(x) for x in user_input.split()] # convert into int

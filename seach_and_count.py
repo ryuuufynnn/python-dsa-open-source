@@ -1,3 +1,4 @@
+# Problem: Find a target number’s first index in a list and count all of its occurrences.
 user_input = input("Enter a number with spaces: ")
 
 numbers = [int(x) for x in user_input.split()]

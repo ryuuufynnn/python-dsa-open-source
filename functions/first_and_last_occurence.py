@@ -1,3 +1,4 @@
+# Problem: Find the first or last occurrence of a target in a sorted list, returning -1 when it is absent.
 # def last_occurence(nums: list[int], target: int) -> int:
 #     answer = -1s
 

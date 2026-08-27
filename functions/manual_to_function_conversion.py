@@ -1,3 +1,4 @@
+# Problem: Given a sorted list and a target, find the target’s last index, or return -1 if it is absent.
 # Word Problem
 # Gumawa ng program na tatanggap ng sorted list of numbers at isang target number.
 # Hanapin ang pinakahuling index kung saan lumabas ang target.

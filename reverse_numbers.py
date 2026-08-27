@@ -1,3 +1,4 @@
+# Problem: Reverse the order of a list of numbers and print the result.
 user_input = input("Enter numbers to reverse: ")
 
 numbers = [int(x) for x in user_input.split()]

@@ -1,3 +1,4 @@
+# Problem: Remove every occurrence of a target number from a list.
 user_input = input("Enter numbers with spaces: ")
 
 numbers = [int(x) for x in user_input.split()]

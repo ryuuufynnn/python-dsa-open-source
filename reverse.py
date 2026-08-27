@@ -1,3 +1,4 @@
+# Problem: Given a sorted list of integers and a target, find the target’s first index, or return -1 if absent.
 # user_input = input("Enter a numbers: ")
 # numbers = [int(x) for x in user_input.split()]
 

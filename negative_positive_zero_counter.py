@@ -1,3 +1,4 @@
+# Problem: Count the positive, negative, and zero values in a list of integers.
 user_input = input("Enter an even and odd numbers: ") # user_input
 
 numbers = [int(x) for x in user_input.split()] # convert into int

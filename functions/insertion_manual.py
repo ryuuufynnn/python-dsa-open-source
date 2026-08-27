@@ -1,3 +1,4 @@
+# Problem: Find a target in a sorted list or determine the index where it should be inserted.
 user_input = input("n: ")
 nums = [int(x) for x in user_input.split()]
 

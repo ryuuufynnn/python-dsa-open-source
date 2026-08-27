@@ -1,3 +1,4 @@
+# Problem: Given a list of numbers and a target, find the first value greater than the target and its index.
 # Gumawa ng program na tatanggap ng listahan ng numbers at isang target number.
 
 # Hanapin ang first number na strictly greater than the target, at i-report ang value at index nito.

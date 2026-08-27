@@ -1,3 +1,4 @@
+# Problem: Count how many times a given target number appears in a list of integers.
 user_input = input("Enter numbers with spaces: ")
 
 numbers = [int(x) for x in user_input.split()]
